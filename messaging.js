@@ -1,4 +1,4 @@
-const showHelp = () => {
+exports.showHelp = () => {
     // handle input
     // no input to see here 
     const helpText = "welcome to my app"
@@ -6,4 +6,3 @@ const showHelp = () => {
     console.log(helpText)
 }
 
-showHelp()
